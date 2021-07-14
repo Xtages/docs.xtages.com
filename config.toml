@@ -23,7 +23,7 @@ pygmentsCodeFences = true
 pygmentsUseClasses = false
 # Use the new Chroma Go highlighter in Hugo.
 pygmentsUseClassic = false
-#pygmentsOptions = "linenos=table"
+pygmentsOptions = "linenos=table"
 # See https://help.farbox.com/pygments.html
 pygmentsStyle = "autumn"
 
@@ -47,7 +47,7 @@ anchor = "smart"
 [services]
 [services.googleAnalytics]
 # Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-id = "UA-00000000-0"
+id = "G-CNHEGNLFXE"
 
 # Language configuration
 
@@ -96,8 +96,11 @@ offlineSearch = false
 
 # User interface configuration
 [params.ui]
+ul_show = 10000
 # Enable to show the side bar menu in its compact state.
 sidebar_menu_compact = false
+sidebar_menu_foldable = false
+sidebar_menu_truncate = 600
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 #  Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
@@ -107,6 +110,9 @@ navbar_logo = true
 # Set to true to disable the About link in the site footer
 footer_about_disable = false
 
+[params.ui.readingtime]
+enable = false
+
 # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
 # This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
@@ -114,50 +120,53 @@ footer_about_disable = false
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="mailto:support@xtages.com">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="mailto:support@xtages.com">tell us how we can improve</a>.'
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-	name = "User mailing list"
-	url = "https://example.org/mail"
-	icon = "fa fa-envelope"
-        desc = "Discussion and help from your fellow users"
+	name = "Xtages.com"
+	url = "https://www.xtages.com"
+	icon = "fa fa-link small"
+        desc = "Xtages"
+[[params.links.user]]
+	name = "Feedback"
+	url = "mailto:hello@xtages.com"
+	icon = "fa fa-envelope small"
+        desc = "Give us feedback"
 [[params.links.user]]
 	name ="Twitter"
-	url = "https://example.org/twitter"
-	icon = "fab fa-twitter"
+	url = "https://twitter.com/xtages"
+	icon = "fab fa-twitter small"
         desc = "Follow us on Twitter to get the latest news!"
 [[params.links.user]]
-	name = "Stack Overflow"
-	url = "https://example.org/stack"
-	icon = "fab fa-stack-overflow"
-        desc = "Practical questions and curated answers"
-# Developer relevant links. These will show up on right side of footer and in the community page if you have one.
-[[params.links.developer]]
-	name = "GitHub"
-	url = "https://github.com/google/docsy"
-	icon = "fab fa-github"
-        desc = "Development takes place here!"
-[[params.links.developer]]
-	name = "Slack"
-	url = "https://example.org/slack"
-	icon = "fab fa-slack"
-        desc = "Chat with other project developers"
-[[params.links.developer]]
-	name = "Developer mailing list"
-	url = "https://example.org/mail"
-	icon = "fa fa-envelope"
-        desc = "Discuss development issues around the project"
-
-[menu]
-  [[menu.main]]
-    name = "back to Console"
-    weight = 10
-    url = "https://console.xtages.com/"
-    pre = "<i class='fab fa-github'></i>"
-    post = "<span class='alert'>New!</span>"
+	name ="Facebook"
+	url = "https://www.facebook.com/Xtages-358773591761681"
+	icon = "fab fa-facebook small"
+        desc = "Follow us on Facebook to get the latest news!"
+[[params.links.user]]
+	name ="LinkedIn"
+	url = "https://www.linkedin.com/company/xtages"
+	icon = "fab fa-linkedin small"
+        desc = "Follow us on LinkedIn to get the latest news!"
 
 [outputs]
   section = [ "HTML", "RSS" ]
+
+[params.mermaid]
+enable = true
+theme = "default"
+
+[params.plantuml]
+enable = true
+theme = "default"
+svg_image_url = "https://www.plantuml.com/plantuml/svg/"
+
+[params.katex]
+enable = true
+html_dom_element = "document.body"
+
+# enable display of chemical equations and physical units via mhchem extension
+[params.katex.mhchem]
+enable = true
