@@ -3,6 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        - git submodule update --init --recursive --depth 1
         - nvm install 15.10.0
         - wget --no-verbose https://github.com/gohugoio/hugo/releases/download/v0.81.0/hugo_extended_0.81.0_Linux-64bit.tar.gz &&
               tar -xf hugo_extended_0.81.0_Linux-64bit.tar.gz hugo -C $PWD/ &&
