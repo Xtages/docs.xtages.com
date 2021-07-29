@@ -20,8 +20,12 @@
   order: 2;
 }
 
-.td-sidebar-nav__section ul {
-  padding-left: 0.5em;
+.td-sidebar-nav__section li {
+  padding-left: 0.8em;
+}
+
+.td-sidebar-nav__section-title {
+  padding-left: 0 !important ;
 }
 
 .td-sidebar-nav a.active {

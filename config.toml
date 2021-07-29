@@ -170,3 +170,9 @@ html_dom_element = "document.body"
 # enable display of chemical equations and physical units via mhchem extension
 [params.katex.mhchem]
 enable = true
+
+
+[[menu.main]]
+name = "xtages.com"
+weight = 50
+url = "https://www.xtages.com"
