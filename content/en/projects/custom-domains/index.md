@@ -26,7 +26,7 @@ It can take up to several hours to verify your domain ownership.
 <table class="table">
 <tbody>
 <tr>
-<td><a href="https://www.ionos.com/help/domains/configuring-your-ip-address/change-a-domains-ip-address-a-record/">1and1</a></td>
+<td><a href="https://www.ionos.com/help/domains/configuring-your-ip-address/changing-a-domains-ipv4ipv6-address-aaaaa-record/">1and1</a></td>
 <td><a href="https://help.blacknight.com/hc/en-us/articles/212512209">Blacknight</a></td>
 <td><a href="https://my.bluehost.com/cgi/help/559">Bluehost</a></td>
 <td><a href="https://directnic.com/knowledge/article/142:can+i+redirect+a+subdomain%3F#/knowledge/article/164">Directnic</a></td>

@@ -5,7 +5,7 @@ weight: 100
 
 Every Xtages [project](/projects) has an out-of-the-box Continuous Integration (CI) pipeline set up. Depending on the type of project, different steps will run as part of that pipeline.
 
-The CI pipeline is triggered every time a push is made to your [GitHub repository’s main branch](../github).
+The CI pipeline is triggered every time a push is made to your [GitHub repository’s main branch](../../github).
 
 The CI run is considered successful if all the steps for the pipeline return with a success exit code (`0`).
 
