@@ -11,6 +11,6 @@ An owner can invite new users to the organization by going to the Account page.
 
 {{< respfig src="nav_menu.png" caption="Account link." >}}
 
-When a user is invited, a random password will be generated for them that is valid for seven days and can only be used once. When a user accepts the invitation, they are forced to change their one-time-use password.
+When a user is invited, they will receive an invitation email with a one-time-use randomly generated password that they can use to [log into the console](https://console.xtages.com/login). Upon logging in with this password, they will be forced to change it.
 
 {{< respfig src="user_invite_form.png" caption="Invite users." >}}

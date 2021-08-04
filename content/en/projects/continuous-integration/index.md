@@ -3,9 +3,9 @@ title: "Continuous Integration"
 weight: 100
 ---
 
-Every Xtages [project](_index.md) has an out-of-the-box Continuous Integration (CI) pipeline set up. Depending on the type of project, different steps will run as part of that pipeline.
+Every Xtages [project](/projects) has an out-of-the-box Continuous Integration (CI) pipeline set up. Depending on the type of project, different steps will run as part of that pipeline.
 
-The CI pipeline is triggered every time a push is made to your GitHub repository’s main branch.
+The CI pipeline is triggered every time a push is made to your [GitHub repository’s main branch](../github).
 
 The CI run is considered successful if all the steps for the pipeline return with a success exit code (`0`).
 
@@ -24,7 +24,7 @@ For the Node.js + Express project template, the following steps will be run:
 * `npm test`
 
 {{% alert title="A build script is required" color="warning" %}}
-Your `package.json` file must include a `build` and `test` [script](https://docs.npmjs.com/cli/v7/using-npm/scripts) configuration, which might be a no-op but **must** return a `0` exit code, otherwise your CI pipeline will fail. 
+Your `package.json` file must include a `build` and `test` [script](https://docs.npmjs.com/cli/v7/using-npm/scripts) configuration, which might be a no-op but **must** return a `0` exit code, otherwise your CI pipeline will fail on every run. 
 {{% /alert %}}
 
  

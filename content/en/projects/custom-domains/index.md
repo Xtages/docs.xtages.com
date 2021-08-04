@@ -17,13 +17,55 @@ Then in the “Domain settings" section, add the name of the domain you wish to 
 
 {{< respfig src="domain_settings.png" caption="Domain settings." >}}
 
-To point your domain name to the production environment, you will need to work with your DNS provider to update your record points to our servers and we can also verify that you own the domain name. The table below provides links to the documentation of some of the most used DNS providers and how to update their configurations. It can take up to several hours to verify your domain ownership.
+To point your domain to the production environment, you will need to work with your DNS provider to update your records to point to our servers, and so we can also verify that you own the domain name. The table below provides links to the documentation on updating the DNS records of some of the most used providers. 
 
+{{% alert title="Domain verification" color="warning" %}}
+It can take up to several hours to verify your domain ownership.
+{{% /alert %}}
 
-|[1and1](https://www.ionos.com/help/domains/configuring-your-ip-address/change-a-domains-ip-address-a-record/)                |[Blacknight](https://help.blacknight.com/hc/en-us/articles/212512209)                                                 |[Bluehost](https://my.bluehost.com/cgi/help/559)                                                                                              |[Directnic](https://directnic.com/knowledge/article/142:can+i+redirect+a+subdomain%3F#/knowledge/article/164) |
-|[DNSMadeEasy](https://help.dnsmadeeasy.com/managed-dns/dns-record-types/record/)                                             |[Domain.com](https://www.domain.com/help/article/dns-management-how-to-update-a-records)                              |[Dotster](https://www.dotster.com/help/article/dns-management-how-to-update-dns-records)                                                      |[DreamHost](https://help.dreamhost.com/hc/en-us/articles/215413857)                                           |
-|[EasyDNS](https://kb.easydns.com/knowledge/how-to-make-a-dns-entry/)                                                         |[Enom](https://www.enom.com/kb/kb/kb_0002_change-host-records.htm?Highlight=a%20record)                               |[FlokiNET](https://billing.flokinet.is/index.php?rp=/knowledgebase/57/Nameserver.html)                                                        |[Gandi](https://docs.gandi.net/en/domain_names/common_operations/dns_records.html)                            |
-|[GoDaddy](https://www.godaddy.com/help/change-nameservers-for-your-domain-names-664)                                         |[Google Domains](https://support.google.com/domains/answer/9211383?hl=en&ref_topic=9018335)                           |[HostGator](https://support.hostgator.com/articles/hosting-guide/lets-get-started/dns-name-servers/manage-dns-records-with-hostgatorenom)     |[HostMonster](https://my.hostmonster.com/cgi/help/559)                                                        |
-|[iPage](https://www.ipage.com/help/article/domain-management-how-to-update-subdomains)                                       |[MediaTemple](https://mediatemple.net/community/products/dv/204403794/how-can-i-change-the-dns-records-for-my-domain) |[MelbourneIT](https://support.melbourneit.com.au/articles/help/Domain-Name-Administration-FAQ/?q%3Dedit%2Bnameservers%26fs%3DSearch%26pn%3D1) |[Moniker](https://faq.moniker.com/create-or-delete-subdomain)                                                 |
-|[Namecheap](https://www.namecheap.com/support/knowledgebase/article.aspx/434/2237/how-do-i-set-up-host-records-for-a-domain) |[Name.com](https://www.name.com/support/articles/115004893508-Adding-an-A-record)                                     |[Network Solutions](https://knowledge.web.com/subjects/article/KA-01094/en-us)                                                                |[OVH](https://docs.ovh.com/gb/en/domains/web_hosting_how_to_edit_my_dns_zone/)                                |
-|[Rackspace](https://support.rackspace.com/how-to/creating-dns-records-with-cloud-dns/)                                       |[Register](https://knowledge.web.com/subjects/article/KA-01094/en-us)                                                 |[Tucows](https://www.tucowsdomains.com/provider-search/)                                                                                      |[Yola](https://www.yola.com/tutorials/article/Adding-A-Records-1285944436490/Publishing_domains_and_email)    |
+<table class="table">
+<tbody>
+<tr>
+<td><a href="https://www.ionos.com/help/domains/configuring-your-ip-address/change-a-domains-ip-address-a-record/">1and1</a></td>
+<td><a href="https://help.blacknight.com/hc/en-us/articles/212512209">Blacknight</a></td>
+<td><a href="https://my.bluehost.com/cgi/help/559">Bluehost</a></td>
+<td><a href="https://directnic.com/knowledge/article/142:can+i+redirect+a+subdomain%3F#/knowledge/article/164">Directnic</a></td>
+</tr>
+<tr>
+<td><a href="https://help.dnsmadeeasy.com/managed-dns/dns-record-types/record/">DNSMadeEasy</a></td>
+<td><a href="https://www.domain.com/help/article/dns-management-how-to-update-a-records">Domain.com</a></td>
+<td><a href="https://www.dotster.com/help/article/dns-management-how-to-update-dns-records">Dotster</a></td>
+<td><a href="https://help.dreamhost.com/hc/en-us/articles/215413857">DreamHost</a></td>
+</tr>
+<tr>
+<td><a href="https://kb.easydns.com/knowledge/how-to-make-a-dns-entry/">EasyDNS</a></td>
+<td><a href="https://www.enom.com/kb/kb/kb_0002_change-host-records.htm?Highlight=a%20record">Enom</a></td>
+<td><a href="https://billing.flokinet.is/index.php?rp=/knowledgebase/57/Nameserver.html">FlokiNET</a></td>
+<td><a href="https://docs.gandi.net/en/domain_names/common_operations/dns_records.html">Gandi</a></td>
+</tr>
+<tr>
+<td><a href="https://www.godaddy.com/help/change-nameservers-for-your-domain-names-664">GoDaddy</a></td>
+<td><a href="https://support.google.com/domains/answer/9211383?hl=en&amp;ref_topic=9018335">Google Domains</a></td>
+<td><a href="https://support.hostgator.com/articles/hosting-guide/lets-get-started/dns-name-servers/manage-dns-records-with-hostgatorenom">HostGator</a></td>
+<td><a href="https://my.hostmonster.com/cgi/help/559">HostMonster</a></td>
+</tr>
+<tr>
+<td><a href="https://www.ipage.com/help/article/domain-management-how-to-update-subdomains">iPage</a></td>
+<td><a href="https://mediatemple.net/community/products/dv/204403794/how-can-i-change-the-dns-records-for-my-domain">MediaTemple</a></td>
+<td><a href="https://support.melbourneit.com.au/articles/help/Domain-Name-Administration-FAQ/?q%3Dedit%2Bnameservers%26fs%3DSearch%26pn%3D1">MelbourneIT</a></td>
+<td><a href="https://faq.moniker.com/create-or-delete-subdomain">Moniker</a></td>
+</tr>
+<tr>
+<td><a href="https://www.namecheap.com/support/knowledgebase/article.aspx/434/2237/how-do-i-set-up-host-records-for-a-domain">Namecheap</a></td>
+<td><a href="https://www.name.com/support/articles/115004893508-Adding-an-A-record">Name.com</a></td>
+<td><a href="https://knowledge.web.com/subjects/article/KA-01094/en-us">Network Solutions</a></td>
+<td><a href="https://docs.ovh.com/gb/en/domains/web_hosting_how_to_edit_my_dns_zone/">OVH</a></td>
+</tr>
+<tr>
+<td><a href="https://support.rackspace.com/how-to/creating-dns-records-with-cloud-dns/">Rackspace</a></td>
+<td><a href="https://knowledge.web.com/subjects/article/KA-01094/en-us">Register</a></td>
+<td><a href="https://www.tucowsdomains.com/provider-search/">Tucows</a></td>
+<td><a href="https://www.yola.com/tutorials/article/Adding-A-Records-1285944436490/Publishing_domains_and_email">Yola</a></td>
+</tr>
+</tbody>
+</table>

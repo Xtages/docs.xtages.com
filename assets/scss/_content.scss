@@ -31,3 +31,9 @@
 .td-sidebar-nav a.active {
   font-weight: 800;
 }
+
+.td-content code {
+  color: inherit;
+  padding: 0.2em 0.4em;
+  background-color: rgba($black, 0.05);
+}

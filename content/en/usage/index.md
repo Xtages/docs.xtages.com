@@ -21,4 +21,4 @@ Projects usage doesn’t reset.
 
 ## Limits
 
-When a usage metric hits the limit for your current plan, we will disable the capability. For example, if you hit the build minutes limit, then you won’t be able to run any CI or CD pipeline. In the same vein, if you hit the egress data limit, your applications will stop serving traffic.
+When a usage metric hits the limit for your current plan, we will disable the capability. For example, if you hit the build minutes limit, then you won’t be able to run any CI or CD pipeline. In the same vein, if you hit the egress data limit, your applications will stop serving traffic. Your usage metrics reset monthly on day your billing cycle starts.

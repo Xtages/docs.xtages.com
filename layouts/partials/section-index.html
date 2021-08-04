@@ -19,7 +19,7 @@
     {{/* Otherwise we show a nice formatted list of subpages with page descriptions */}}
     <hr class="panel-line">
         {{ range $pages }}
-            {{ if eq .Parent $parent }}
+            {{ if and (eq .Parent $parent) (and (ne .File.LogicalName "search.md") (ne .RelPermalink "/index.json")) }}
                 <div class="entry">
                     <h5>
                         <a href="{{ .RelPermalink }}">{{- .Title -}}</a>

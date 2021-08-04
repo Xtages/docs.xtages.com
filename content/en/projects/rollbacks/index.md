@@ -7,5 +7,5 @@ Rollbacks can only happen from promoted builds, in other words, only the product
 
 To start a rollback use the Actions menu and select "Rollback":
 
-{{< respfig src="promotion_build_actions_menu.png" caption="Build actions menu." >}}
+{{< respfig src="rollback_build_actions_menu.png" caption="Build actions menu." >}}
 
