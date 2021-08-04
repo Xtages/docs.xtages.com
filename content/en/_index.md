@@ -1,22 +1,16 @@
-
 ---
-title: "Documentation"
+title: "Introduction to Xtages"
 linkTitle: "Documentation"
-weight: 20
-type: list
+weight: 100
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+Xtages lets you create projects that include out-of-the-box Continuous Integration (CI) and Continuous Deployment (CD) pipelines. It integrates with GitHub to provide CI workflows and deploys your applications to two environments; staging and production.
 
 
-This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project. 
+## Getting started
 
-For large documentation sets we recommend adding content under the headings in this section, though if some or all of them don’t apply to your project feel free to remove them or add your own. You can see an example of a smaller Docsy documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which lives in the [Docsy theme repo](https://github.com/google/docsy/tree/master/userguide) if you'd like to copy its docs section. 
+Once you have [signed up to Xtages](https://www.xtages.com/pricing.html) and installed our [GitHub app](https://github.com/apps/xtages-connector) on your GitHub organization you can then start [creating your application](projects/) using one of our project templates.
 
-Other content such as marketing material, case studies, and community updates should live in the [About](/about/) and [Community](/community/) pages.
+{{< respfig src="project_templates.png" caption="Project templates.">}}
 
-Find out how to use the Docsy theme in the [Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to organize your documentation (and how we organized this site) in [Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
-
-
+Your application will have an out-of-the-box CI workflow that is run on every push to your main [GitHub](/github) branch, additionally, a CD workflow is available to deploy your application to the staging environment as well as promote a build from staging to production. 
