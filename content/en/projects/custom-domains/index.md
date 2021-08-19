@@ -13,7 +13,7 @@ Go to the project settings page:
 
 {{< respfig src="project_settings.png" caption="Project settings." >}}
 
-Then in the “Domain settings" section, add the name of the domain you wish to associate.
+Then in the "Domain settings" section, add the name of the domain you wish to associate.
 
 {{< respfig src="domain_settings.png" caption="Domain settings." >}}
 
@@ -69,3 +69,9 @@ It can take up to several hours to verify your domain ownership.
 </tr>
 </tbody>
 </table>
+
+{{% alert title="Activating your Custom Domain" color="danger" %}}
+Once your domain ownership has been verified, you will have to trigger a new [build]({{< relref "/continuous-integration" >}})
+at a new git revision, [deploy]({{< relref "/deployments" >}}) it to staging and finally
+[promote]({{< relref "/promotions" >}}) it to production, so the changes take place.
+{{% /alert %}}
