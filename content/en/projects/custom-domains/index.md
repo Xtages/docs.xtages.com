@@ -13,7 +13,7 @@ Go to the project settings page:
 
 {{< respfig src="project_settings.png" caption="Project settings." >}}
 
-Then in the “Domain settings" section, add the name of the domain you wish to associate.
+Then in the "Domain settings" section, add the name of the domain you wish to associate.
 
 {{< respfig src="domain_settings.png" caption="Domain settings." >}}
 
@@ -69,3 +69,8 @@ It can take up to several hours to verify your domain ownership.
 </tr>
 </tbody>
 </table>
+
+## Activating your Custom Domain
+
+Once your domain ownership has been verified, you will have to [promote]({{< relref "/promotions" >}}) a **fresh** build to production, so the changes
+take place.
