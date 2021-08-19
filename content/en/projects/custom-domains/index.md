@@ -70,7 +70,8 @@ It can take up to several hours to verify your domain ownership.
 </tbody>
 </table>
 
-## Activating your Custom Domain
-
-Once your domain ownership has been verified, you will have to [promote]({{< relref "/promotions" >}}) a **fresh** build to production, so the changes
-take place.
+{{% alert title="Activating your Custom Domain" color="danger" %}}
+Once your domain ownership has been verified, you will have to trigger a new [build]({{< relref "/continuous-integration" >}})
+at a new git revision, [deploy]({{< relref "/deployments" >}}) it to staging and finally
+[promote]({{< relref "/promotions" >}}) it to production, so the changes take place.
+{{% /alert %}}
