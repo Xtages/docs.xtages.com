@@ -12,7 +12,7 @@ frontend:
     build:
       commands:
         - npm ci
-        - hugo
+        - hugo -b "${BASE_URL}"
   artifacts:
     baseDirectory: /public
     files:
